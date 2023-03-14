@@ -1,7 +1,11 @@
 name: CI -> Deploy to My website
 on:
   push:
-    branches: [ master, Development ]
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 jobs:
   build:
     runs-on: windows-latest
