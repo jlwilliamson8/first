@@ -15,7 +15,7 @@ jobs:
     - name: Upload ftp
       uses: sebastianpopp/ftp-action@releases/v2
       with:
-        host: "172.16.0.7"
+        host: "172.16.0.7:21"
         user: "jwilliamson"
         password: "jwilliamson"
         localDir: ""
