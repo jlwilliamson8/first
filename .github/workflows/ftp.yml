@@ -18,6 +18,6 @@ jobs:
         host: "172.16.0.7"
         user: "jwilliamson"
         password: "jwilliamson"
-        localDir: ""
-        remoteDir: ""
+        localDir: "first"
+        remoteDir: "ftp_input"
         options: "--delete --asci"
