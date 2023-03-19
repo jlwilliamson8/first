@@ -19,5 +19,5 @@ jobs:
         user: "jwilliamson"
         password: "jwilliamson"
         localDir: ""
-        remoteDir: "ftp_input"
+        remoteDir: "/ftp_input/"
         options: "--delete --asci"
