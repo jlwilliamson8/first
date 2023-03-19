@@ -16,8 +16,8 @@ jobs:
       uses: sebastianpopp/ftp-action@releases/v2
       with:
         host: "172.16.0.7"
-        user: "jlwilliamson"
-        password: ""
+        user: "jwilliamson"
+        password: "jwilliamson"
         localDir: ""
         remoteDir: ""
         options: "--delete --asci"
